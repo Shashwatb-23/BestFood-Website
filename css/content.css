@@ -1,0 +1,69 @@
+        /* Home Section */
+/* ================================= */
+
+#home {
+    display: flex;
+    height: 377px;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('../img/background\ img/bg1.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 470px;
+    width: 100%;
+    z-index:  -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    cursor: default;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Bree Serif", serif;
+    cursor: default;
+}
+
+/* ================================= */
+        /* Utility Class */
+/* ================================= */
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: "Bree Serif", serif;
+}
+
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    font-family: "Bree Serif", serif;
+}
+
+.btn{
+    padding: 6px 18px;
+    border: 1px solid white;
+    border-radius: 14px;
+    background-color: rgba(158, 52, 52, 0.77);
+    color: white;
+    margin: 18px;
+    font-size: 1.35rem;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}

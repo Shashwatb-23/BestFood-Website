@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Food Website | BestFood.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Bree+Serif&family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="css/client.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="./css/media_query.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="./img/Logo's/logo.png" alt="BestFood.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Best Food</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi molestiae molestias temporibus, nemo aspernatur optio doloremque modi eius maiores ut.</p>
+        <p>Lorem ipsum, dolor sit amet consecte.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-conatiner">
+        <h1 class="h-primary center">Our  Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="./img/section/1.jpg" alt="junkie1">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis repellat fugit quidem velit reiciendis iste dolorum magni nam odio ipsam unde quis mollitia fuga, dicta facilis esse? Tempore perferendis beatae, aut neque quo odit?</p>
+            </div>
+            <div class="box">
+                <img src="./img/section/2.jpg" alt="junkie1">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis repellat fugit quidem velit reiciendis iste dolorum magni nam odio ipsam unde quis mollitia fuga, dicta facilis esse? Tempore perferendis beatae, aut neque quo odit?</p>
+            </div>
+            <div class="box">
+                <img src="./img/section/3.jpg" alt="junkie1">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis repellat fugit quidem velit reiciendis iste dolorum magni nam odio ipsam unde quis mollitia fuga, dicta facilis esse? Tempore perferendis beatae, aut neque quo odit?</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/Logo's/maserati_logo.jpg" alt="Our_client">
+            </div>
+            <div class="client-item">
+                <img src="img/Logo's/lambo_logo.png" alt="Our_client">
+            </div>
+            <div class="client-item">
+                <img src="img/Logo's/RE_logo.png" alt="Our_client">
+            </div>
+            <div class="client-item">
+                <img src="img/Logo's/RR_logo.png" alt="Our_client">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center"><span style="background: rgba(0, 0, 0, 0.68);
+            border-radius: 10px;
+            color: white;">Contact Us</span></h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" required placeholder="Enter Your Name...">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" required placeholder="Enter Your email...">
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number: </label>
+                    <input type="phone" name="name" id="number" required placeholder="Enter Your Phone Number...">
+                </div>
+                <div class="form-group">
+                    <label for="message">Write us your message: </label>
+                        <textarea rows="4" cols="50" name="message" id="message"   placeholder="Write us your message..." ></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            <p>&copy; 2024 BestFood Company | All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

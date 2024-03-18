@@ -1,0 +1,29 @@
+       /* Services Section */
+/* ================================= */
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 30px;
+    border-radius: 28px;
+    background: #b4b4b4;
+}
+
+#services .box img{
+    height: 145px;
+    width: 195px;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    border: 3px solid aliceblue;
+}
+
+#services .box p{
+    font-family: "Bree Serif", serif;
+}
+

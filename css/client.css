@@ -1,0 +1,31 @@
+        /* Client Section */
+/* ================================= */
+
+#client-section {
+    position: relative;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('../img/background\ img/bg2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    border-radius: 12px;
+    aspect-ratio: 3/3;
+}
